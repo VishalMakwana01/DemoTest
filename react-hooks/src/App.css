@@ -1,0 +1,23 @@
+.main{
+  max-width: 350px;
+  margin:20px auto
+}
+ul.todo-list{
+  list-style-type: none;
+  padding: 0;
+}
+ul.todo-list li {
+  margin:10px 0px
+}
+
+span.complete{
+  text-decoration: line-through;
+}
+
+span.delete-button{
+  background-color: red;
+  color: white;
+  padding: 3px;
+  float: right;
+  cursor: pointer;
+}
